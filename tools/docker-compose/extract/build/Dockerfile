@@ -16,4 +16,5 @@ RUN set -x; getent passwd ${USER_UID} ||  useradd extract -u ${USER_UID}  -g ${U
 
 COPY . .
 
-CMD ["/workdir/Extract_OMOP_json.sh"]
+RUN apt-get update; apt-get -y install postgresql-client
+# CMD ["/workdir/Extract_OMOP_json.sh"]

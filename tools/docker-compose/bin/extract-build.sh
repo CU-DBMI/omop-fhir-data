@@ -14,11 +14,10 @@ while [ -h "$SOURCE" ]; do
     [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
 done
 DIR="$(cd -P "$(dirname "$SOURCE")" && pwd)"
-. "${DIR}"/../../bin/.init
+. "${DIR}"/.init
 cd "$DIR"/..
-pwd
 
 docker compose --progress plain \
-  -f ../extract.yaml \
+  -f extract.yaml \
   build
  
