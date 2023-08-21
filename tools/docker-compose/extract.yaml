@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  extract:
+    image: mgkahn/omop-extract:latest
+    container_name: foo
+    build:
+      context: extract/build
+      args:
+        USER_UID: ${USER_UID:?err}
+        USER_GID: ${USER_GID:?err}
+    environment:                                
+    user: ${UID_GID:?err}
+#    command: ["/bin/bash", "./Extract_OMOP_json.sh"]
+    command: ["tail", "-f", "/dev/null"]
+    volumes:
+      - type: bind
+        source: extract/volume/omop-json
+        target: /workdir/omop-json
+      - type: bind
+        source: ../omop-tools/sql/postgresql
+        target: /workdir/sql
+
