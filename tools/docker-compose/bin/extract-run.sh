@@ -18,6 +18,5 @@ DIR="$(cd -P "$(dirname "$SOURCE")" && pwd)"
 cd "$DIR"/..
 
 docker compose --progress plain \
-  --remove-orphans \
   -f extract.yaml \
   run extract

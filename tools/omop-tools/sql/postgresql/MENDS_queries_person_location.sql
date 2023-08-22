@@ -42,7 +42,7 @@ select
     , cast(l.zip as text) as zip
     , cast(dth.death_date as text) as death_date
  from @cdmDatabaseSchema.person p
- JOIN @cdmDatabaseSchema.location l on p.location_id = l.location_id
+ LEFT JOIN @cdmDatabaseSchema.location l on p.location_id = l.location_id
  LEFT JOIN @cdmDatabaseSchema.death dth on p.person_id = dth.person_id
 -- order by p.person_id
 ;
