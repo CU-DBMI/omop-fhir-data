@@ -18,7 +18,6 @@ DIR="$(cd -P "$(dirname "$SOURCE")" && pwd)"
 . "${DIR}"/.init
 cd "$DIR"/..
 
-docker compose --progress plain \
-    -f postgres.yaml \
+docker compose -f postgres.yaml \
     up
 
