@@ -1,0 +1,10 @@
+START,STOP,PATIENT,ENCOUNTER,CODE,SYSTEM,DESCRIPTION,TYPE,CATEGORY,REACTION1,DESCRIPTION1,SEVERITY1,REACTION2,DESCRIPTION2,SEVERITY2
+2001-10-04,,dff4fb18-b328-ee30-7c7b-aa0be3e72322,05ede4aa-24ee-a3bd-0537-eed66af2c334,256355007,Unknown,Soya bean (substance),allergy,food,247472004,Wheal (finding),MODERATE,62315008,Diarrhea (finding),MILD
+1969-03-15,,29b93630-8a0f-e25c-db9f-425b709f6224,3ed2b18e-6bb9-46f7-36b2-6f8c26f703f7,111088007,Unknown,Latex (substance),allergy,environment,247472004,Wheal (finding),MILD,878820003,Rhinoconjunctivitis (disorder),MILD
+1969-03-15,,29b93630-8a0f-e25c-db9f-425b709f6224,3ed2b18e-6bb9-46f7-36b2-6f8c26f703f7,84489001,Unknown,Mold (organism),allergy,environment,76067001,Sneezing,MILD,,,
+1969-03-15,,29b93630-8a0f-e25c-db9f-425b709f6224,3ed2b18e-6bb9-46f7-36b2-6f8c26f703f7,260147004,Unknown,House dust mite (organism),allergy,environment,,,,,,
+1969-03-15,,29b93630-8a0f-e25c-db9f-425b709f6224,3ed2b18e-6bb9-46f7-36b2-6f8c26f703f7,264287008,Unknown,Animal dander (substance),allergy,environment,878820003,Rhinoconjunctivitis (disorder),MODERATE,,,
+1969-03-15,,29b93630-8a0f-e25c-db9f-425b709f6224,3ed2b18e-6bb9-46f7-36b2-6f8c26f703f7,256277009,Unknown,Grass pollen (substance),allergy,environment,,,,,,
+1969-03-15,,29b93630-8a0f-e25c-db9f-425b709f6224,3ed2b18e-6bb9-46f7-36b2-6f8c26f703f7,782576004,Unknown,Tree pollen (substance),allergy,environment,,,,,,
+1969-03-15,,29b93630-8a0f-e25c-db9f-425b709f6224,3ed2b18e-6bb9-46f7-36b2-6f8c26f703f7,412071004,Unknown,Wheat (substance),allergy,food,,,,,,
+1969-03-15,,29b93630-8a0f-e25c-db9f-425b709f6224,3ed2b18e-6bb9-46f7-36b2-6f8c26f703f7,442571000124108,Unknown,Tree nut (substance),allergy,food,267036007,Dyspnea (finding),MODERATE,271807003,Eruption of skin (disorder),MODERATE
