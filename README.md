@@ -1,4 +1,4 @@
-# meds-on-fhir-example-data
+# OMOP-FHIR DATA
 
 # Overview
 The repo holds OMOP JSON data sets that can be used to run the OMOP-to-FHIR pipeline available in the [MENDS-on-FHIR](https://github.com/cu-dbmi/mends-on-fhir) repo. Using these data sets obviates the need for access to an instance of an OMOP CDM running on an RDBMS. Each folder represents a different data set. Folder names follow the same naming convention: Source-Method-Rows:
