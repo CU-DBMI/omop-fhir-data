@@ -1,0 +1,13 @@
+START,STOP,PATIENT,ENCOUNTER,CODE,SYSTEM,DESCRIPTION,TYPE,CATEGORY,REACTION1,DESCRIPTION1,SEVERITY1,REACTION2,DESCRIPTION2,SEVERITY2
+1993-03-22,,da1075ed-a9ae-1be9-e7d3-6432d22e62c2,c66a9469-8c96-5911-91f9-fa3b9ad45601,111088007,Unknown,Latex (substance),allergy,environment,247472004,Wheal (finding),MILD,,,
+1993-03-22,,da1075ed-a9ae-1be9-e7d3-6432d22e62c2,c66a9469-8c96-5911-91f9-fa3b9ad45601,288328004,Unknown,Bee venom (substance),allergy,environment,,,,,,
+1993-03-22,,da1075ed-a9ae-1be9-e7d3-6432d22e62c2,c66a9469-8c96-5911-91f9-fa3b9ad45601,84489001,Unknown,Mold (organism),allergy,environment,,,,,,
+1993-03-22,,da1075ed-a9ae-1be9-e7d3-6432d22e62c2,c66a9469-8c96-5911-91f9-fa3b9ad45601,260147004,Unknown,House dust mite (organism),allergy,environment,,,,,,
+1993-03-22,,da1075ed-a9ae-1be9-e7d3-6432d22e62c2,c66a9469-8c96-5911-91f9-fa3b9ad45601,264287008,Unknown,Animal dander (substance),allergy,environment,878820003,Rhinoconjunctivitis (disorder),MODERATE,271807003,Eruption of skin (disorder),MILD
+1993-03-22,,da1075ed-a9ae-1be9-e7d3-6432d22e62c2,c66a9469-8c96-5911-91f9-fa3b9ad45601,782576004,Unknown,Tree pollen (substance),allergy,environment,,,,,,
+1993-03-22,,da1075ed-a9ae-1be9-e7d3-6432d22e62c2,c66a9469-8c96-5911-91f9-fa3b9ad45601,412071004,Unknown,Wheat (substance),allergy,food,,,,,,
+1993-03-22,,da1075ed-a9ae-1be9-e7d3-6432d22e62c2,c66a9469-8c96-5911-91f9-fa3b9ad45601,735029006,Unknown,Shellfish (substance),allergy,food,39579001,Anaphylaxis (disorder),SEVERE,271807003,Eruption of skin (disorder),MODERATE
+1993-03-22,,da1075ed-a9ae-1be9-e7d3-6432d22e62c2,c66a9469-8c96-5911-91f9-fa3b9ad45601,762952008,Unknown,Peanut (substance),allergy,food,402387002,Allergic angioedema (disorder),MODERATE,247472004,Wheal (finding),MODERATE
+2014-12-24,,dc4b2797-d170-4315-db19-6e17fd657b27,f3532c79-39d6-f47b-7901-3f3e6361d1da,84489001,Unknown,Mold (organism),allergy,environment,21626009,Allergic skin rash,MILD,,,
+1948-04-23,,73dd3dea-8670-1593-abee-9d9073698596,2edaecdb-c504-02fc-ea00-b077faf1b336,1191,Unknown,Aspirin,allergy,medication,,,,,,
+1948-04-23,,73dd3dea-8670-1593-abee-9d9073698596,2edaecdb-c504-02fc-ea00-b077faf1b336,762952008,Unknown,Peanut (substance),allergy,food,402387002,Allergic angioedema (disorder),MODERATE,247472004,Wheal (finding),MODERATE
