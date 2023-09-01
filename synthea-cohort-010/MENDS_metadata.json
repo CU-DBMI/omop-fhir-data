@@ -1,0 +1,18 @@
+{
+"Metadata": {
+ "omop_source":
+  {
+    "cdm_source_name":"Synthea synthetic health database",
+    "cdm_source_abbreviation":"Synthea",
+    "cdm_holder":"OHDSI",
+    "source_description":"SyntheaTM is a Synthetic Patient Population Simulator. The goal is to output synthetic, realistic (but not real), patient data and associated health records in a variety of formats.",
+    "source_documentation_reference":"https:\/\/synthetichealth.github.io\/synthea\/",
+    "cdm_etl_reference":"https:\/\/github.com\/OHDSI\/ETL-Synthea",
+    "source_release_date":"2023-08-31",
+    "cdm_release_date":"2023-08-31",
+    "cdm_version":"5.3",
+    "vocabulary_version":"v5.0 31-MAY-23"
+  }
+}
+}
+
