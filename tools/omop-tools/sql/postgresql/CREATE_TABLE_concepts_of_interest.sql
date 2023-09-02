@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW concepts_of_interest AS (
+CREATE OR REPLACE VIEW @cdmDatabaseSchema.concepts_of_interest AS (
   with concept_list as (
     select 'body_temp' as concept_set, 3020891 as concept_id
     UNION ALL select 'body_weight', 3025315
@@ -55,13 +55,13 @@ CREATE OR REPLACE VIEW concepts_of_interest AS (
       UNION ALL select 'smoking', 2000001183
     UNION ALL 
     select 'labs', c.concept_id 
-	from concept c 
+	from @cdmDatabaseSchema.concept c 
 	where c.vocabulary_id = 'LOINC' and c.domain_id = 'Measurement' and concept_class_id = 'Lab Test'  )
   select distinct coi_list.concept_set
                  , coi_list.concept_id
 				 , c.concept_name, c.domain_id
 				 , c.vocabulary_id
-  from concept c join concept_list coi_list on c.concept_id = coi_list.concept_id
+  from @cdmDatabaseSchema.concept c join concept_list coi_list on c.concept_id = coi_list.concept_id
   order by coi_list.concept_set asc, coi_list.concept_id asc
  )
 ;

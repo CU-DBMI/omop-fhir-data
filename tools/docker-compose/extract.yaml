@@ -11,14 +11,13 @@ services:
         UID_GID: ${UID_GID}
 #    environment:                             
     user: ${UID_GID:?err}
-    command: ["/bin/bash", "./Extract_OMOP_json.sh"]
-#    command: ["tail", "-f", "/dev/null"]
+#    command: ["/bin/bash", "/workdir/omop-tools/bin/Extract_OMOP_json.sh"]
+    command: ["tail", "-f", "/dev/null"]
     volumes:
       - type: bind
         source: extract/volume/omop_json
         target: /workdir/omop_json
       - type: bind
-        source: ../omop-tools/sql/postgresql
-        target: /workdir/sql
-
+        source: ../omop-tools/
+        target: /workdir/omop-tools
 

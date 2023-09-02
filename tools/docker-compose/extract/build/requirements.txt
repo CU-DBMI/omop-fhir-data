@@ -9,5 +9,5 @@ google-cloud-bigquery
 google-cloud-storage
 google-api-python-client
 sqlalchemy
-psycopg2
+psycopg2-binary
 python-dotenv

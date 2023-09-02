@@ -8,6 +8,7 @@ services:
         PG_USER: ${PG_USER:?err}
         PG_PASSWORD: ${PG_PASSWORD:?err}
         PG_DATA: ${PG_DATA:?err}
+        PG_DUMP: ${PG_DUMP:?err}
     environment:
       - "POSTGRES_USER=${PG_USER:?err}"
       - "POSTGRES_PASSWORD=${PG_PASSWORD:?err}"

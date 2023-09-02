@@ -15,7 +15,7 @@ RUN apt-get update; apt-get -y install postgresql-client
 COPY requirements.txt ./
 RUN pip install --upgrade pip; \
     pip install --no-cache-dir -r requirements.txt
-RUN mkdir -p /workdir/sql /workdir/omop_json
+RUN mkdir -p /workdir/omop-tools /workdir/omop_json
 
 COPY . .
 RUN chown -R ${UID_GID} .

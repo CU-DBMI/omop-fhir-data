@@ -115,7 +115,7 @@ Set up GCE for the Python extraction steps:
   `conda activate mends`  
   `python3 -m pip install db-api pandas  sqlalchemy pyarrow argparse psycopg2-binary google.cloud.storage google.cloud.bigquery pybigquery`  
 **Better method**  
-  `pip3 install -R requirements.txt`  
+  `pip3 install -r requirements.txt`  
 5. Script that runs the extract:  
   `git/omop-fhir-data/_tools/omop-tools/bin/Extract_OMOP_json.sh`
 

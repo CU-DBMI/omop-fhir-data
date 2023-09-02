@@ -1,12 +1,14 @@
 #https://cadu.dev/creating-a-docker-image-with-database-preloaded/
 ARG PG_IMAGE
 
+
 FROM ${PG_IMAGE} as builder
 ARG PG_USER
 ARG PG_PASSWORD
 ARG PG_DATA
+ARG PG_DUMP
 
-COPY pgdump_synthea.sql /docker-entrypoint-initdb.d/
+COPY ${PG_DUMP} /docker-entrypoint-initdb.d/
 
 RUN ["sed", "-i", "s/exec \"$@\"/echo \"skipping...\"/", "/usr/local/bin/docker-entrypoint.sh"]
 
